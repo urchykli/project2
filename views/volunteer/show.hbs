@@ -1,0 +1,25 @@
+<ul class="volunteer">
+	<li>
+			<div class="card">
+					<div class="title">
+							{{ title }}
+					</div>
+					<div class="location">
+							{{ location }}
+					</div>
+					<div class="description">
+							Description: {{ description }}
+					</div>
+					<div class="date">
+							Submitted: {{ createdAt }}
+					</div>
+					<div class="button">
+					<div>
+							<form method="POST" action="/volunteer/{{id}}?_method=DELETE" class="volunteer-form">
+									<input type="submit" value='Delete' class='btn-volunteer'>
+							</form>
+					</div>
+					</div>
+			</div>
+	</li>
+</ul>
