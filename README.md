@@ -40,7 +40,8 @@ For my second project, I created a full-stack web app that allows people to post
 <br>
 	Comments on pets and volunteer opportunities
 <br>
-	Like functionality on pets and volunteer ops
-
+	'Like' functionality on pets and volunteer ops
+<br>
+	Image upload for pets
 
 
