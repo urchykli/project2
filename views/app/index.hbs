@@ -5,12 +5,11 @@
             <ul class="pets listings">
                 <h2>Pets</h2>
                 {{#each pets}}
-                    <li>
-                        <div class="card">
+                <li>
+                    <div class="card">
+                        <a href="/pet/{{id}}">
                             <div class="name">
-                                <a class="card-title" href="/pet/{{id}}">
-                                    {{ name }}
-                                </a>
+                                {{ name }}
                             </div>
                             <div class="location">
                                 {{ location }}
@@ -21,8 +20,9 @@
                             <div class="date">
                                 Submitted: {{ createdAt }}
                             </div>
-                        </div>
-                    </li>
+                        </a>
+                    </div>
+                </li>
                 {{/each}}
             </ul>
             {{/if}}
@@ -34,20 +34,20 @@
                 {{#each volunteers}}
                 <li>
                     <div class="card">
-                        <div class="title">
-                            <a class="card-title" href="/volunteer/{{id}}">
+                        <a href="/volunteer/{{id}}">
+                            <div class="title">
                                 {{ title }}
-                            </a>
-                        </div>
-                        <div class="location">
-                            {{ location }}
-                        </div>
-                        <div class="description">
-                            {{ description }}
-                        </div>
-                        <div class="date">
-                            Submitted: {{ createdAt }}
-                        </div>
+                            </div>
+                            <div class="location">
+                                {{ location }}
+                            </div>
+                            <div class="description">
+                                {{ description }}
+                            </div>
+                            <div class="date">
+                                Submitted: {{ createdAt }}
+                            </div>
+                        </a>
                     </div>
                 </li>
                 {{/each}}

@@ -5,9 +5,22 @@ body {
 
 a {
 	text-decoration: none;
+}
+.name {
 	color: #734B5E;
 }
-
+.title {
+	color: #734B5E;
+}
+.location {
+	color: #F5D3C8;
+}
+.description {
+	color: #F5D3C8;
+}
+.date {
+	color: #F5D3C8;
+}
 .listings {
 	height:auto;
 	padding: 10px;
